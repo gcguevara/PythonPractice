@@ -47,6 +47,6 @@ def game():
                 reset = False
             # print error message if guess not 'y' or 'n'
             elif play_again != 'y' or 'n':
-                print("Whoops, {} is not an accepted value. Type 'y' for YES or 'n' for No.".format(play_again))
+                print("Whoops, {} is not an accepted value. Type 'y' for YES or 'n' for NO.".format(play_again))
 
 game()
