@@ -20,7 +20,7 @@ def generate_locations():
     # if any of these equal each other, generate locations again
     if quicksand == door or quicksand == start or door == start or pit == start or pit == door \
             or crocodiles == start or crocodiles == door:
-        return get_locations()
+        return generate_locations()
 
     return quicksand, pit, crocodiles, door, start
 
