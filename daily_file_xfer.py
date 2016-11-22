@@ -45,5 +45,3 @@ def move_files(source, destination):
                 shutil.move(file_source, file_destination)
                 # print what was moved successfully and to where
                 print("\tMoved {} to {}.\n".format(files, destination))
-
-move_files('C://Users//Gary//Documents//Folder-A', 'C://Users//Gary//Documents//Folder-B')
