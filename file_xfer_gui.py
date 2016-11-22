@@ -47,7 +47,5 @@ def load_gui(self):
                                  command=lambda: file_xfer_func.close(self))
     self.button_done.grid(row=2, column=1, padx=(0, 0), pady=(10, 10))
 
-    # create a label as a place holder for a future widget
-    self.label_print = tk.Label(self.master, width=16, height=2, text="")
-    self.label_print.grid(row=2, column=2, padx=(0, 0), pady=(10, 10))
-
+    # connec to the database and create the table if it doesn't exist
+    file_xfer_func.create_db(self)
