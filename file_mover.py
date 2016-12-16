@@ -31,4 +31,3 @@ def file_mover(source, destination):
             # print what was moved successfully and to where
             print("Moved {} to {}.".format(files, destination))
 
-file_mover('C://Users//Gary//Desktop//Folder-A', 'C://Users//Gary//Desktop//Folder-B')
